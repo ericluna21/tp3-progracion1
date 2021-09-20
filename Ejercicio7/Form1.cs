@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio2
+namespace Ejercicio7
 {
     public partial class Form1 : Form
     {
@@ -19,12 +19,7 @@ namespace Ejercicio2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int valor1 = int.Parse(this.Valor1.Text);
-            int valor2 = int.Parse(this.Valor2.Text);
-            int resta = valor1 - valor2;
-            string toString = resta.ToString();
-            this.Resultado.Text = toString;
-        }
 
+        }
     }
 }
